@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* navbar css  */
+ul li a {
+    color: black !important;
+}
+
+.SignUp a i {
+background-color:  #f5F6F7;
+padding: 10px;
+border-radius: 10px;
+color:#9A9EA7 ;
+
+}
+
+.SignUp a {
+    color: #9A9EA7 !important;
+}
+/* navbar css  */
+
+/* hero area  */
+.BrandColor {
+    color: #9A9EA7;
+}
+
+.HeroArea h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.HeroButton button {
+    font-weight: 600;
+    font-size: medium;
+    padding:8px 20px 8px 20px;;
+}
+
+/* hero area  */

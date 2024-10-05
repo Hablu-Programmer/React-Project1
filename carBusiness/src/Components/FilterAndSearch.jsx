@@ -122,6 +122,12 @@ const Price = () => (
   </label>
 );
 
+/**
+ * add section title and custom class: filter-search-section-title
+ * design Type Select full design complete and duplicate: Make-Year-Model-Price
+ * create Primary Icon Button
+ */
+
 export const FilterAndSearch = () => {
   return (
     <section>

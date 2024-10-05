@@ -1,19 +1,17 @@
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap";
+import "./App.css";
 
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "bootstrap/dist/js/bootstrap"
-import 'bootstrap-icons/font/bootstrap-icons.css';
-
-import Navbar from './Components/Navbar';
-import Hero from './Components/Hero';
+import Hero from "./Components/Hero";
+import Navbar from "./Components/Navbar";
 function App() {
- 
   return (
-    <>
+    <main>
       <Navbar />
-      <Hero/>
-    </>
-  )
+      <Hero />
+    </main>
+  );
 }
 
-export default App
+export default App;

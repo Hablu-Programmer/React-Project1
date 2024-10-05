@@ -127,7 +127,6 @@ const Price = () => (
  * design Type Select full design complete and duplicate: Make-Year-Model-Price
  * create Primary Icon Button
  */
-
 export const FilterAndSearch = () => {
   return (
     <section>

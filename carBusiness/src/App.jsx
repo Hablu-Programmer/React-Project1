@@ -5,13 +5,19 @@ import "./App.css";
 
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
-function App() {
+
+import { FilterAndSearch } from "./Components/FilterAndSearch";
+import { Trending } from "./Components/Trending";
+
+const App = () => {
   return (
     <main>
       <Navbar />
       <Hero />
+      <FilterAndSearch />
+      <Trending />
     </main>
   );
-}
+};
 
 export default App;

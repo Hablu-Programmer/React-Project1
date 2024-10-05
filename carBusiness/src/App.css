@@ -1,40 +1,78 @@
-*{
-    margin:0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* navbar css  */
 ul li a {
-    color: black !important;
+  color: black !important;
 }
 
 .SignUp a i {
-background-color:  #f5F6F7;
-padding: 10px;
-border-radius: 10px;
-color:#9A9EA7 ;
-
+  background-color: #f5f6f7;
+  padding: 10px;
+  border-radius: 10px;
+  color: #9a9ea7;
 }
 
 .SignUp a {
-    color: #9A9EA7 !important;
+  color: #9a9ea7 !important;
 }
 /* navbar css  */
 
 /* hero area  */
 .BrandColor {
-    color: #9A9EA7;
+  color: #9a9ea7;
 }
 
 .HeroArea h1 {
-    font-size: 64px;
-    font-weight: 700;
+  font-size: 64px;
+  font-weight: 700;
 }
 
 .HeroButton button {
-    font-weight: 600;
-    font-size: medium;
-    padding:8px 20px 8px 20px;;
+  font-weight: 600;
+  font-size: medium;
+  padding: 8px 20px 8px 20px;
 }
 
 /* hero area  */
+
+/* FilterAndSearch */
+.filter-search-section-title {
+  line-height: 36px;
+  padding-top: 83px;
+  padding-bottom: 40px;
+}
+.vertical-line {
+  width: 1px;
+  height: 32px;
+  background-color: #ede8e9;
+}
+.filter-search-label {
+  color: #9a9ea7;
+  line-height: 18px;
+}
+.filter-search-select {
+  width: 144px;
+  border: none;
+  line-height: 21px;
+}
+
+.search-button {
+  width: 120px;
+  height: 46px;
+  border-radius: 10px;
+  background: #7963f0;
+}
+.outline-none:focus {
+  outline: none;
+}
+.filter-search-box {
+  width: 100%;
+  max-width: 945px;
+  padding: 18px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0px 3px 4px 0px rgba(153, 155, 168, 0.15);
+}

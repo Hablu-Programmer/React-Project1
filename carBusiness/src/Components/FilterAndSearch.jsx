@@ -130,7 +130,7 @@ const Price = () => (
  */
 export const FilterAndSearch = () => {
   return (
-    <section>
+    <section style={{ paddingTop: "83px" }}>
       <SectionTitle>Which vehicles you are looking for?</SectionTitle>
 
       <div className="d-flex justify-content-center align-items-center gap-3 filter-search-box">

@@ -33,7 +33,10 @@ export const Trending = () => {
     <div style={{ paddingTop: "100px" }} className="container">
       <SectionTitle>Trending near you</SectionTitle>
 
-      <Row className="d-flex justify-content-center">
+      <Row
+        style={{ paddingTop: "54px" }}
+        className="d-flex justify-content-center"
+      >
         {trendings.map(
           ({ img, title, cylinders, miles, price, transmission }, i) => (
             <Col md={4} key={i}>

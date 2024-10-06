@@ -8,6 +8,7 @@ import Navbar from "./Components/Navbar";
 
 import { BestSelling } from "./Components/BestSelling";
 import { FilterAndSearch } from "./Components/FilterAndSearch";
+import { FindVehicles } from "./Components/FindVehicles";
 import { Reviews } from "./Components/Reviews";
 import { Trending } from "./Components/Trending";
 
@@ -20,6 +21,7 @@ const App = () => {
       <Trending />
       <BestSelling />
       <Reviews />
+      <FindVehicles />
     </main>
   );
 };

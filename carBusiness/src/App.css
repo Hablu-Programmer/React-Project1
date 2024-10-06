@@ -76,3 +76,10 @@ ul li a {
   border-radius: 8px;
   box-shadow: 0px 3px 4px 0px rgba(153, 155, 168, 0.15);
 }
+
+/* trending css */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 30px 0;
+}

@@ -1,4 +1,5 @@
 import { Search } from "../assets/icon";
+import { SectionTitle } from "./common/title";
 
 const Type = () => (
   <div className="d-flex justify-content-center align-items-center">
@@ -130,9 +131,7 @@ const Price = () => (
 export const FilterAndSearch = () => {
   return (
     <section>
-      <h1 className="text-center fw-bold fs-2 filter-search-section-title">
-        Which vehicles you are looking for?
-      </h1>
+      <SectionTitle>Which vehicles you are looking for?</SectionTitle>
 
       <div className="d-flex justify-content-center align-items-center gap-3 filter-search-box">
         <Type />

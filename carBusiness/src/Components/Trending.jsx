@@ -3,7 +3,7 @@ import { SectionTitle } from "./common/title";
 
 const trendings = [
   {
-    img: "/trending-card-img.png",
+    img: "/trending-card-img1.png",
     title: "Used 2019 Audi S4 Premium Plus",
     miles: "11 475",
     transmission: "AWD",
@@ -11,20 +11,20 @@ const trendings = [
     price: "$41,400",
   },
   {
-    img: "/trending-card-img.png",
+    img: "/trending-card-img2.png",
     title: "2013 Subaru Forester Premium Plus",
     miles: "40 475",
     transmission: "AWD",
     cylinders: "4-Cylinder Turbo",
-    price: "$41,400",
+    price: "$22,500",
   },
   {
-    img: "/trending-card-img.png",
+    img: "/trending-card-img3.png",
     title: "Used 2010 BMW X3 Sport package",
     miles: "20 850",
     transmission: "RWD",
     cylinders: "4-Cylinder",
-    price: "$41,400",
+    price: "$39,200",
   },
 ];
 

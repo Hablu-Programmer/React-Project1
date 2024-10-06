@@ -101,3 +101,7 @@ ul li a {
   font-size: 1rem;
   color: #6c757d;
 }
+
+footer p {
+  margin: 0;
+}

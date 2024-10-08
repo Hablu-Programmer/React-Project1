@@ -15,27 +15,27 @@ const reviews = [
     },
   },
   {
-    img: "/review-1.png",
+    img: "/review-2.png",
     content:
-      "The 2021 Escalade is a technological showcase and a worthy claimant of the flagship American luxury vehicle title.",
+      "If developing a car was a marathon technological showcase, Hyundai didn’t run the last mile with the 2021 Elantra. ",
     user: {
-      img: "/avatar-1.png",
-      name: "Hironaka Hiroe",
-      position: "Chief Editor",
-      stars: 4.91,
-      total: 98,
+      img: "/avatar-2.png",
+      name: "Debashis Bhuiyan",
+      position: "News Editor",
+      stars: 4.65,
+      total: 93,
     },
   },
   {
-    img: "/review-1.png",
+    img: "/review-3.png",
     content:
-      "The 2021 Escalade is a technological showcase and a worthy claimant of the flagship American luxury vehicle title.",
+      "The new entry point into Mercedes-Benz’s SUV lineup is bigger and improved, but still features a frustrating powertrain. ",
     user: {
-      img: "/avatar-1.png",
-      name: "Hironaka Hiroe",
+      img: "/avatar-3.png",
+      name: "Lew Silverton",
       position: "Chief Editor",
-      stars: 4.91,
-      total: 98,
+      stars: 4.55,
+      total: 35,
     },
   },
 ];
@@ -58,8 +58,8 @@ export const Reviews = () => {
                 <p className="card-text opacity-50">{content}</p>
                 <div className="d-flex align-items-center mt-3">
                   <img
-                    src={user.img}
                     alt=""
+                    src={user.img}
                     className="rounded-circle me-3"
                     style={{ width: "50px", height: " 50px" }}
                   />

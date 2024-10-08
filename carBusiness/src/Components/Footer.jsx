@@ -1,14 +1,17 @@
 export const Footer = () => {
   return (
-    <footer style={{}} className="d-flex">
-      <div>
-        <p>Privacy Policy</p>
-        <p>Term of Use</p>
-        <p>© 2021 All rights reserved</p>
-      </div>
-      <div>
-        <p>English</p>
-        <p>
+    <footer className="container footer-container d-flex gap-1">
+      <p>
+        <span className="fw-bold">Privacy Policy</span>
+        <span className="fw-bold ps-4">Term of Use</span>
+        <span className="ps-4 opacity-80">© 2021 All rights reserved</span>
+      </p>
+      <div className="d-flex gap-3 align-items-center">
+        <p className="d-flex gap-1">
+          <img src="/footer-web.png" style={{ minWidth: "18px" }} alt="" />
+          <span>English</span>
+        </p>
+        <p className="d-flex gap-1 align-items-center">
           <svg
             width="13"
             height="5"
@@ -21,7 +24,7 @@ export const Footer = () => {
               fill="#9A9EA7"
             />
           </svg>
-          USD
+          <span>USD</span>
         </p>
       </div>
     </footer>
